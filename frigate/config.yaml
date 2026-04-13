@@ -8,9 +8,9 @@ breaking_versions:
 panel_icon: "mdi:cctv"
 panel_title: Frigate
 slug: frigate
-description: NVR with realtime local object detection for IP cameras
-url: "https://github.com/blakeblackshear/frigate"
-image: ghcr.io/blakeblackshear/frigate
+description: NVR with realtime local object detection for IP cameras (HailoRT 4.23.0 test)
+url: "https://github.com/mikehailodev/frigate"
+image: ghcr.io/mikehailodev/frigate
 startup: application
 boot: auto
 init: false
