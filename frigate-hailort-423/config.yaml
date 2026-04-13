@@ -1,5 +1,5 @@
 name: Frigate HailoRT 4.23
-version: dcb2555
+version: 5df42aa
 breaking_versions:
   - 0.17.0
   - 0.16.0
@@ -38,6 +38,7 @@ ports_description:
   5000/tcp: Unauthenticated Web interface (not required for Home Assistant Ingress)
   1984/tcp: go2rtc API
 host_network: false
+host_ipc: true
 devices:
   - /dev/dri/renderD128
   - /dev/apex_0
@@ -69,3 +70,4 @@ map:
   - "addon_config:rw"
   - "homeassistant_config:rw"
   - "ssl"
+  - "share:rw"
