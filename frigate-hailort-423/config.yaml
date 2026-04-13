@@ -1,4 +1,4 @@
-name: Frigate
+name: Frigate HailoRT 4.23
 version: dcb2555
 breaking_versions:
   - 0.17.0
@@ -7,7 +7,7 @@ breaking_versions:
   - 0.14.0
 panel_icon: "mdi:cctv"
 panel_title: Frigate
-slug: frigate
+slug: frigate-hailort-423
 description: NVR with realtime local object detection for IP cameras (HailoRT 4.23.0 test)
 url: "https://github.com/mikehailodev/frigate"
 image: ghcr.io/mikehailodev/frigate
