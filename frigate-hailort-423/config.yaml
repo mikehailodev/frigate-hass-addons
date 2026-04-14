@@ -1,5 +1,5 @@
 name: Frigate HailoRT 4.23
-version: b268be7
+version: 8f2689e
 breaking_versions:
   - 0.17.0
   - 0.16.0
