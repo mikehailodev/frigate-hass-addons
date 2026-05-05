@@ -56,3 +56,4 @@ map:
   - "addon_config:rw"
   - "homeassistant_config:rw"
   - "ssl"
+  - "share:rw"

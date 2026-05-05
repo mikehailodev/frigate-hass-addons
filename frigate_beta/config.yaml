@@ -38,6 +38,7 @@ ports_description:
   5000/tcp: Unauthenticated Web interface (not required for Home Assistant Ingress)
   1984/tcp: go2rtc API
 host_network: false
+host_ipc: true
 devices:
   - /dev/dri/renderD128
   - /dev/apex_0
@@ -70,3 +71,4 @@ map:
   - "addon_config:rw"
   # Mount old config dir to be migrated by the image
   - "homeassistant_config:rw"
+  - "share:rw"

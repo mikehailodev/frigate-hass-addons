@@ -57,3 +57,4 @@ map:
   - "addon_config:rw"
   # Mount old config dir to be migrated by the image
   - "homeassistant_config:rw"
+  - "share:rw"
