@@ -1,5 +1,5 @@
 name: Frigate
-version: fb2b666-rpi
+version: e9dc3d5-rpi
 breaking_versions:
   - 0.17.0
   - 0.16.0
