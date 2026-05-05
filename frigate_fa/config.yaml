@@ -1,5 +1,5 @@
 name: Frigate (Full Access)
-version: e9dc3d5-rpi
+version: 404ecd1-rpi
 breaking_versions:
   - 0.17.0
   - 0.16.0
