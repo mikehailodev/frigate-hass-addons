@@ -51,6 +51,8 @@ devices:
   - /dev/video0
   - /dev/hailo0
   - /dev/hailo1
+  - /dev/h1x-0
+  - /dev/h1x-1
 usb: true
 video: true
 tmpfs: true
