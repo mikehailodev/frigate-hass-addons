@@ -10,7 +10,7 @@ panel_title: Frigate
 slug: frigate
 description: NVR with realtime local object detection for IP cameras
 url: "https://github.com/blakeblackshear/frigate"
-image: ghcr.io/blakeblackshear/frigate
+image: ghcr.io/mikehailodev/frigate
 startup: application
 boot: auto
 init: false
@@ -38,6 +38,7 @@ ports_description:
   5000/tcp: Unauthenticated Web interface (not required for Home Assistant Ingress)
   1984/tcp: go2rtc API
 host_network: false
+host_ipc: true
 devices:
   - /dev/dri/renderD128
   - /dev/apex_0
@@ -69,3 +70,4 @@ map:
   - "addon_config:rw"
   - "homeassistant_config:rw"
   - "ssl"
+  - "share:rw"
