@@ -38,6 +38,7 @@ ports_description:
   5000/tcp: Unauthenticated Web interface (not required for Home Assistant Ingress)
   1984/tcp: go2rtc API
 host_network: false
+host_ipc: true
 tmpfs: true
 video: true
 full_access: true
